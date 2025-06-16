@@ -84,14 +84,6 @@ npm install
 
 
 
-That will **correctly render** as:
-
----
-
-### Install dependencies
-
-```bash
-npm install
 
 
 📸 Screenshots
