@@ -82,30 +82,3 @@ src/
 ```bash
 npm install
 
-
-
-
-
-📸 Screenshots
-image.png
-
-📌 To-Do
-Add product search/filter
-
-Persist cart in localStorage
-
-Add backend integration
-
-Implement user login and authentication
-
-👨‍💻 Author
-Bhanukiran Reddy
-Built with ❤️ using React and Context API
-
-📝 License
-This project is open-source and free to use for educational purposes.
-
-
----
-
-Let me know if you'd like to include deployment instructions (like Netlify/Vercel), add a GIF demo, or convert this into a PDF for your portfolio.
