@@ -75,14 +75,23 @@ src/
    git clone https://github.com/your-username/react-cart-app.git
    cd react-cart-app
 
-2. Install dependencies:
+--- 
 
+### Install dependencies
+
+```bash
 npm install
 
-3. Start the development server:
 
-npm start
 
+That will **correctly render** as:
+
+---
+
+### Install dependencies
+
+```bash
+npm install
 
 
 📸 Screenshots
