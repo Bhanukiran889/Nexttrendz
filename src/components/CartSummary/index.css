@@ -1,26 +1,32 @@
-/* Write your CSS here */
+/* Container for Cart Summary */
 .cart-summary-container {
-  text-align: right;
-  padding: 16px;
+  border-top: 1px solid #d7dfe9;
+  padding: 20px 16px;
+  text-align: center;
 }
 
-.order-total-heading {
+/* Order Total Text */
+.order-total-label {
   font-size: 22px;
   font-weight: 600;
   color: #1e293b;
 }
 
-.order-total {
+.order-total-value {
   color: #0b69ff;
+  font-weight: bold;
 }
 
+/* Total Items Text */
 .total-items {
-  color: #64748b;
   font-size: 16px;
+  color: #64748b;
+  margin-top: 8px;
   margin-bottom: 12px;
 }
 
-.checkout-button {
+/* Checkout Button */
+.checkout-btn {
   background-color: #0b69ff;
   color: #ffffff;
   padding: 10px 24px;
@@ -28,4 +34,75 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Popup Container */
+.popup-container {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  min-width: 300px;
+  text-align: left;
+}
+
+/* Payment Heading */
+.payment-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+/* Payment Options */
+.payment-options label {
+  display: block;
+  margin: 8px 0;
+  font-weight: 500;
+  color: #334155;
+}
+
+/* Order Summary Inside Popup */
+.order-summary {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #475569;
+}
+
+/* Confirm Order Button */
+.confirm-order-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.confirm-order-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Success Message */
+.success-message {
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Close Button */
+.close-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #1e293b;
 }

@@ -16,6 +16,17 @@
   width: 90%;
   max-width: 1110px;
 }
+.remove-all-button {
+  
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
 
 @media screen and (min-width: 768px) {
   .cart-content-container {
