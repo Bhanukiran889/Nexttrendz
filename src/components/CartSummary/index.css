@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.cart-summary-container {
+  text-align: right;
+  padding: 16px;
+}
+
+.order-total-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.order-total {
+  color: #0b69ff;
+}
+
+.total-items {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
